@@ -31,6 +31,8 @@ public class _06_DoWhile {
 	    	 k++;
 	    } while(k <= 20);
 	    
+	    System.out.println("---------------------");
+	    
 	    
 	    
 	    
