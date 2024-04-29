@@ -1,0 +1,10 @@
+package chap02_variables;
+
+public class _05_ShortIntLong {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,23 @@
+package chap02_variables;
+
+public class _04_CharType {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. char 타입의 변수 선언 및 초기화
+		char ch1 = 'A';
+		
+		// 유니코드 값을 알고 있으면 유니코드 값으로 저장가능
+		char ch2 =65;
+		
+		System.out.println(ch1);
+		System.out.println(ch2);
+		
+		// 2. 유니코드 값을 모르는 문자의 유니코드 값 추출
+		char ch3 = '자';
+		
+		System.out.println((int)ch3);
+
+	}
+
+}

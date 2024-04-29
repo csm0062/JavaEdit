@@ -1,0 +1,25 @@
+package chap02_variables;
+
+public class _10_TypeCasting {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. 자동형변환1: byte 크기가 작은 타입에서 큰 차입으로는 자동형변환이 일어난다.
+		short sNum1 = 10;
+		
+		// short은 2byte고 int는 4byte이기 때문에 sNum1이 자동으로 int 타입으로 변환된다.
+		int iNum1 = sNum1;
+		
+		// 2. 자동형변환2: 좀 더 세밀한 표현범위를 갖는 타입으로 자동형변환이 일어난다.(정수 -> 실수)
+		long lNum1 = 200L;
+		
+		// long은 8byte고 Float는 4byte로 long이 byte 크기는 더 크지만 float가 더 세밀한 표현범위를 갖고 있기 때문에
+		// lNum1이 float 타입으로 변환된다.
+		float fNum1 = lNum1;
+		
+		
+		
+
+	}
+
+}
