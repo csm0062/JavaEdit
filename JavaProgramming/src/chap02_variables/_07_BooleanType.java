@@ -13,12 +13,11 @@ public class _07_BooleanType {
 		boolean isValidated = false;
 		
 		// 3. 사용자 id 유효성 검사
-		// 사용자 id가 8자리 이상 20이하면 유효란 id로 판단
+		// 사용자 id가 8자리 이상 20이하면 유효한 id로 판단
 		// 문자열변수.length()=> 문자열의 길이
 		if(userId.length() >= 8 && userId.length() <= 20) {
 			// 유효성 검사에서 통과하면 플래그 변수의 값을 true로 변경
 			isValidated = true;
-			
 		}
 		
 		// 4. 유효성 검사 결과 출력
@@ -29,7 +28,18 @@ public class _07_BooleanType {
 		} else {
 			System.out.println("아이디는 8자리에서 20자리 사이로 지정해주세요.");
 		}
-
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }

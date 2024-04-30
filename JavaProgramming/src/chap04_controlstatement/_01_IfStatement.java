@@ -18,30 +18,28 @@ public class _01_IfStatement {
 			System.out.println("싸다");
 		}
 		
-		System.out.println("----------------------");
+		System.out.println("--------------");
 		
+		int num = 0;
 		
-		
-		// num가 짝수인지 홀수인지 출력하는 조건문을 작성하세요.
+		// num가 짝수인 홀수인지 출력하는 조건문을 작성하세요.
 		// 2로 나눴을 때 나머지가 0이면 짝수, 아니면 홀수
-		
-		int num = 12345;
-		
-		if(num % 2 == 1 ) {
-			System.out.println("홀수");
-		} else if(num % 2 == 0) {
-			System.out.println("짝수");
+		if(num % 2 == 0) {
+			System.out.println("짝수입니다.");
+		} else {
+			System.out.println("홀수입니다.");
 		}
 		
-		System.out.println("----------------------");
 		
 		
-		/* 또는
-		 * if(num % 2 == 1 ) { System.out.println("홀수"); } else
-		 *  {
-		 * System.out.println("짝수"); }
-		 */
-
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }

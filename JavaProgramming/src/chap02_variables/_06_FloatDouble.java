@@ -19,9 +19,6 @@ public class _06_FloatDouble {
 		
 		System.out.println(result1);
 		System.out.println(result2);
-	
-		
-
 	}
 
 }

@@ -8,23 +8,22 @@ public class _03_LogicalOperator {
 		int num1 = 110;
 		int num2 = 225;
 		
-		//
-		
+		// true
 		System.out.println("num1 < num2 : " + (num1 < num2));
-		//
+		// true
 		System.out.println("num <= num2 : " + (num1 <= num2));
-		//
+		// false
 		System.out.println("num1 > num2 : " + (num1 > num2));
-		//
+		// false
 		System.out.println("num1 >= num2 : " + (num1 >= num2));
-		//
+		// false
 		System.out.println("num1 == num2 : " + (num1 == num2));
-		//
+		// true
 		System.out.println("num1 != num2 : " + (num1 != num2));
 		
 		// ==, != 값의 동일여부를 비교할 때는 기본자료형만 가능하다.
 		// 참조형 변수들은 값이 heap 메모리에 저장되어 있기 때문에
-		// ==, !=을 이용해서 값을 비교하면 stack 메모리에 저장되어 있는 주소값을 비교한다
+		// ==, !=을 이용해서 값을 비교하면 stack 메모리에 저장되어 있는 주소값을 비교한다.
 		String str1 = new String("hello");
 		String str2 = new String("hello");
 		
@@ -43,15 +42,14 @@ public class _03_LogicalOperator {
 		result = num1 < num2 && num3 / num4 == 0;
 		System.out.println(result);
 		
-		// 논리합 (||): 한쪽 항만 true여도 true 리턴.
+		// 논리합(||): 한쪽 항만 true여도 true 리턴.
 		result = false || num2 > 100;
 		System.out.println(result);
 		
-		// 부정(!): ture는 false, false는 true로 반전해서 리턴.
+		// 부정(!): true는 false, false는 true로 반전해서 리턴.
 		result = !(num4 > 200);
 		System.out.println(result);
 		
-    
 		
 		
 		
@@ -62,7 +60,12 @@ public class _03_LogicalOperator {
 		
 		
 		
-
+		
+		
+		
+		
+		
+		
 	}
 
 }
