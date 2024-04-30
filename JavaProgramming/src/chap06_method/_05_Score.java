@@ -25,6 +25,7 @@ public class _05_Score {
 			scores[i] = sc.nextInt();
 		}
 		
+		//{10, 20, 30, 40, 50}
 		System.out.println("점수의 총합은: " + score.getTotalScore(scores));
 		System.out.println("점수의 평균은: " + score.getAvgScore(scores));
 		
