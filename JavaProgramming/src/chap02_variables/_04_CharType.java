@@ -8,8 +8,8 @@ public class _04_CharType {
 		char ch1 = 'A';
 		
 		// 유니코드 값을 알고 있으면 유니코드 값으로 저장가능
-		char ch2 = 65;
-		
+		char ch2 = 122;
+	
 		System.out.println(ch1);
 		System.out.println(ch2);
 		
