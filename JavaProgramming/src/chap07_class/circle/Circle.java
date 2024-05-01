@@ -12,7 +12,7 @@ public class Circle {
 		
 	}
 	
-	//int값 하나를 받아서 radius를 초기화해주는
+	//int값 하나를 받아서 radius를 초기화해주는 생성자
 	public Circle(int radius)
 	{
 		this.radius = radius;
