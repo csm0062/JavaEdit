@@ -1,4 +1,4 @@
-package _240501_homework.basic;
+package _240501_homework;
 
 public class PhoneInfo {
 	// 1. PhoneInfo 클래스를 생성하세요.

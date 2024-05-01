@@ -1,4 +1,4 @@
-package _240501_homework.basic;
+package _240501_homework;
 
 public class User {
 	
