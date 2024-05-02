@@ -1,4 +1,4 @@
-﻿package _240502_homework;
+﻿package _240502_homework.middle;
 
 import java.util.Scanner;
 // 3개의 정숫값을 입력하고 최댓값을 구합니다.
@@ -24,13 +24,27 @@ class Max3 {
 			if(b < c)
 			{
 				max = c;
-			}else
+			}
+			else
 			{
 				max = b;
 			}
 		}
 		
+//		if(a < b)
+//		{
+//			max = b;
+//		}
+//		if(b < c)
+//		{
+//			max = c;
+//		}
+//		
+		
 
 		System.out.println("최댓값은 " + max + "입니다.");
+		stdIn.close();
 	}
+	
+	
 }

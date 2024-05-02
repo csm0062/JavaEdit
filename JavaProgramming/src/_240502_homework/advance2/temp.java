@@ -1,11 +1,12 @@
 package _240502_homework.advance2;
 
-public class temp extends Worker {
+public class Temp extends Worker {
 	public int hireYear;
 
-	public temp(int eno, String name, int pay, int type, int hireYear) {
+	public Temp(int eno, String name, int pay, int type, int hireYear) {
 		super(eno, name, pay, type);
 		this.hireYear = hireYear;
+		System.out.println("고용연도: " + hireYear);
 	}
 
 	@Override

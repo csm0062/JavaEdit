@@ -1,9 +1,9 @@
 package _240502_homework.advance2;
 
-public class regular extends Worker {
+public class Regular extends Worker {
 	public int bonus;
 		
-	public regular(int eno, String name, int pay, int type,int bonus) 
+	public Regular(int eno, String name, int pay, int type,int bonus) 
 	{
 		super(eno, name, pay, type);
 		this.bonus = bonus;

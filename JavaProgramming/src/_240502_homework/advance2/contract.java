@@ -1,9 +1,9 @@
 package _240502_homework.advance2;
 
-public class contract extends Worker {
+public class Contract extends Worker {
 	public int workDay;
 	
-	public contract(int eno, String name, int pay, int type, int workDay)
+	public Contract(int eno, String name, int pay, int type, int workDay)
 	{
 		super(eno, name, pay, type);
 		this.workDay = workDay;	
