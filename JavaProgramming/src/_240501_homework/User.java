@@ -1,7 +1,10 @@
 package _240501_homework;
 
+// DTO: Data Transfer Object, VO: Value Object, Entity
 public class User {
-	
+	// private로 하는이유는 직접 바꾸지 못하게 하기위해서
+	// 보안성 Up
+	// 그래서 setter로 받아주고 getter로 보내주는.
 	private long id;
 	private String username;
 	private String password;

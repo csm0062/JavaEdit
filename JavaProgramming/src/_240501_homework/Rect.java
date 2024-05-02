@@ -8,24 +8,19 @@ public class Rect {
 	{
 		
 	}
-	
-	public Rect(int width)
-	{
-		this.width = width;
-	}
-	
+		
 	public Rect(int width, int height)
 	{
 		this.width = width;
 		this.height = height;
 	}
 	
-	public int Round()
+	public int round()
 	{
 		return 2 * (width + height);
 	}
 	
-	public int Area()
+	public int area()
 	{
 		return  width * height;
 	}
