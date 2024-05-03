@@ -6,7 +6,7 @@ public class Temp extends Worker {
 	public Temp(int eno, String name, int pay, int type, int hireYear) {
 		super(eno, name, pay, type);
 		this.hireYear = hireYear;
-		System.out.println("고용연도: " + hireYear);
+//		System.out.println("고용연도: " + hireYear);
 	}
 
 	@Override
