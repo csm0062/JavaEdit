@@ -11,7 +11,7 @@ public class TempEmployee extends Employee {
 	@Override
 	public double getMonthPay() {
 		// TODO Auto-generated method stub
-		return this.getPay()/12;
+		return this.getPay() / 12;
 	}
 	
 	@Override
