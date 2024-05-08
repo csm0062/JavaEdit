@@ -33,13 +33,6 @@ public class _02_InterfaceArray {
 			carInterface.carInfo();
 		}
 		
-		
-		
-		
-		
-		
-		
-
 	}
 
 }
