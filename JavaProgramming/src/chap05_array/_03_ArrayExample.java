@@ -6,13 +6,19 @@ public class _03_ArrayExample {
 		// TODO Auto-generated method stub
 		// 3. chArr의 요소 중 소문자는 대문자로, 대문자는 소문자로 변환하여 convertArr에 저장하세요.
 		char[] chArr = {'b', 'I', 't', 'C'};
+		
 		// {'B', 'i', 'T', 'c'}
+		
 		char[] convertArr = new char[4];
 		
-		for(int i = 0; i < chArr.length; i++) {
-			if(chArr[i] >= 'A' && chArr[i] <= 'Z') {
+		for(int i = 0; i < chArr.length; i++) 
+		{
+			if(chArr[i] >= 'A' && chArr[i] <= 'Z')// 대문자범위 
+			{
 				convertArr[i] = Character.toLowerCase(chArr[i]);
-			} else {
+			}
+			else 
+			{
 				convertArr[i] = Character.toUpperCase(chArr[i]);
 			}
 			

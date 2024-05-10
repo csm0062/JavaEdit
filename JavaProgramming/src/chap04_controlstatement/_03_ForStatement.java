@@ -19,7 +19,8 @@ public class _03_ForStatement {
 		System.out.println("---------------------");
 		
 		// 2. 1~100까지 정수 중 2와 3의 공배수를 모두 출력하는 for문을 작성하세요.
-		for(int j = 1; j <= 100; j++) {
+		for(int j = 1; j <= 100; j++) 
+		{
 			if(j % 2 == 0 && j % 3 == 0)
 				System.out.println(j);
 		}

@@ -6,6 +6,7 @@ public class _04_ArrayExample {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
 		// 1. 자바에서 랜덤 값 생성방법 1: Random 클래스 사용
 		// Random.nextInt(바운드): 0 ~ 바운드 - 1 까지의 숫자중 랜덤한 값 생성
 		Random random = new Random();

@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class _02_middle {
 
-	public static void main(String[] args) throws ParseException {
+	public static void main(String[] args)  {
 		// TODO Auto-generated method stub
 //		1. 사용자가 입력한 날짜(yyyy-MM-dd 형식으로 입력받음)에 add 메소드로 3일뒤로 변경하고
 //	     yyyy-MM-dd 형식으로 출력하세요. (SimpleDateFormat 클래스 사용. SimpleDateFormat의
@@ -24,7 +24,13 @@ public class _02_middle {
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
 		
 		//날짜를 나눠 넣겠다는 함수
-		Date date = sdf.parse(str);
+		Date date = null;
+		try {
+			date = sdf.parse(str);
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 		//빈 캘린더에 date값을 넣음(내가 입력 한 시간을 넣겠다)
 		calendar.setTime(date);

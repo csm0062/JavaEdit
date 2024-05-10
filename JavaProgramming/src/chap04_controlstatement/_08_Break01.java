@@ -12,12 +12,14 @@ public class _08_Break01 {
 		
 		int sum = 0;
 		
-		while(true) {
+		while(true) 
+		{
 			System.out.print("숫자를 입력하세요.(0 입력 시 종료)");
 			 
 			int userNum = sc.nextInt();
 			
-			if(userNum == 0) {
+			if(userNum == 0) 
+			{
 				System.out.println("프로그램을 종료합니다.");
 				// while문의 종료
 				break;

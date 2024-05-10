@@ -20,14 +20,16 @@ public class _09_Break02 {
 			}
 			
 			for(int i = 2; i <= userNum; i++) {
-				if(i > 3) 
-					break;
+//				if(i > 3) 
+//					break;
 				System.out.println(i + "단");
 				for(int j = 1; j <= 9; j++) {
+					
 					// 내부 for문을 중단하는 break
 					// j가 4가 되는 순간 내부 for문이 종료되고 외부 for문의 증감식으로 이동한다.
 //					if(j > 3) 
 //						break;
+					
 					System.out.println(i + " * " + j + " = " + i * j);
 				}
 			}

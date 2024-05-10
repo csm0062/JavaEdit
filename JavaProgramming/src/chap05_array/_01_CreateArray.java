@@ -12,7 +12,7 @@ public class _01_CreateArray {
 		// 2. 배열의 초기화
 		// 2-1. 인덱스(순번)으로 접근해서 초기화
 		// 인덱스는 0부터 시작한다. 마지막 인덱스는 배열의 길이 - 1.
-		// { 1, 2, , , 5}
+		// { 1, 2,0,0, 5} //인트배열이라 빈값은 0으로 나온다.
 		numArr[0] = 1;
 		numArr[1] = 2;
 		numArr[4] = 5;
@@ -53,8 +53,12 @@ public class _01_CreateArray {
 		strArr[0] = "a";
 		strArr[1] = "b";
 		
+		
 		System.out.println(strArr[0]);
 		System.out.println(strArr[2]);
+		//String은 초기화하지 않으면 null(빈 곳이)
+		
+		
 		
 		
 		

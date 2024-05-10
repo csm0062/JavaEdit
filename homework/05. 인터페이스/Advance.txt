@@ -1,10 +1,12 @@
-1. 인터페이스 Student - void saveInfo();
+1. 인터페이스 Student - void saveInfo(int index, String subject, int score);
                      - void printInfo();
                      - double getAvg(); 
    클래스 CommonStat - int sno; 학번
                      - String name;
-		     - String[] subject;
-		     - int[] finalExamScore;
+		             - String[] subject;
+		             - int[] finalExamScore;
 
 위 인터페이스와 클래스를 상속받은 MathStudent, EngStudent, ComStudent 구현하세요.
-                     
+각각 int sno와 String name을 받아서 객체를 생성하는 생성자와 상속받은 메소드를 구현하세요.
+saveInfo 메소드는 CommonStat 클래스에 있는 subject 배열과 finalExamScore 배열에 값을 저장하는 기능을 구현하세요.
+getAvg메소드는 CommonStat 클래스에 있는 finalExamScore 배열에 있는 값의 평균을 구하면 됩니다.

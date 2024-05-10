@@ -25,6 +25,7 @@ public class _05_InfiniteWhile {
 			
 			// 입력한 문자열이 q일 때 while문을 종료시키는 if문을 작성하세요.
 			// String.equalsIgnoreCase(): 대소문자 구분없이 값비교(소문자로 비교)
+			// 소문자q든 대문자Q든 -----------
 			if(inputStr.equalsIgnoreCase("q")) {
 				System.out.println("프로그램을 종료합니다.");
 				break;
