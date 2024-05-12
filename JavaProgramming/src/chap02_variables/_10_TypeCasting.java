@@ -38,6 +38,8 @@ public class _10_TypeCasting {
 		int result2 = (int)lNum1 + iNum1;
 		int result3 = (int)(lNum1 + iNum1);
 		
+		System.out.println(result2);
+		System.out.println(result3);
 		
 		// 6. 문자열 결합 연산
 		// 문자열 결합 연산에서는 모든 타입이 문자열로 변환된 후 문자열과 결합된다.
@@ -47,6 +49,8 @@ public class _10_TypeCasting {
 		
 		//                  "bitcamp" + "11.1592" 
 		String combineStr = str + dNum1;
+		String combineStr1 = str + classRoom;
+		System.out.println(combineStr1);
 		System.out.println(combineStr);
 		
 		

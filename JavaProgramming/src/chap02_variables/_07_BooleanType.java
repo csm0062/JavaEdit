@@ -23,9 +23,12 @@ public class _07_BooleanType {
 		// 4. 유효성 검사 결과 출력
 		// if(isValidated) == if(isValidated == true)
 		// if(!isValidated) == if(isValidated == false)
-		if(isValidated) {
+		if(isValidated) 
+		{
 			System.out.println("사용가능한 아이디입니다.");
-		} else {
+		} 
+		else 
+		{
 			System.out.println("아이디는 8자리에서 20자리 사이로 지정해주세요.");
 		}
 		

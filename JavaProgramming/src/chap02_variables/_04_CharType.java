@@ -32,6 +32,15 @@ public class _04_CharType {
 		// 문자열(String) 타입에서는 완전 빈 칸을 사용할 수 있다.
 		String empty = "";
 		
+		char ch6 = 'A';
+		char ch7 = 'Z';
+		char ch8 = 'a';
+		char ch9 = 'z';
+		System.out.println((int)ch6);
+		System.out.println((int)ch7);
+		System.out.println((int)ch8);
+		System.out.println((int)ch9);
+		
 		
 		
 		

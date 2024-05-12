@@ -4,6 +4,7 @@ public class _07_DuplicatedFor {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
 		// 1. 중첩 for문
 		for(int i = 0; i < 5; i++) 
 		{

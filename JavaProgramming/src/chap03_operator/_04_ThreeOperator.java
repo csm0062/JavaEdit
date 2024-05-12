@@ -11,8 +11,8 @@ public class _04_ThreeOperator {
 		int result = num1 / num2 < 0 ? num1 - 11 : num2 - 11;
 		System.out.println(result);
 		
-		// 2. 삼항 조건연산자의 중첩
-		result = num1 / num2 > 8
+		// 2. 삼항 조건연산자의 중첩                          (앞이 ture일때     괄호 안중 true일떄 : false일때):(false일때    괄호 안중 true일떄 : false일때)
+		result = num1 / num2 > 8    //num1 / num2 > 8  (? num1 - 11 == 100 ? num1 * 2 : um1 / 2) : ( num2 - 11 < 0 ? num2 * 2 : num2 / 2);
 				 ?
 					num1 - 11 == 100
 					?

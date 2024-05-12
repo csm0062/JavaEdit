@@ -38,7 +38,8 @@ public class _02_ScopeOfVariables {
 		
 		// 지역변수는 메소드가 종료되면서 메모리에서 삭제되기 때문에 메모리에 남아있지 않는 변수에 접근하려고 해서 에러가 발생
 		/*
-		 * System.out.println(localVal1); System.out.println(localVal2);
+		 * System.out.println(localVal1);
+		 * System.out.println(localVal2);
 		 * System.out.println(localResult);
 		 */
 	}

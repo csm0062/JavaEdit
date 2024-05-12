@@ -6,8 +6,11 @@ public class _05_InfiniteWhile {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
 		// Scanner: 사용자의 입력 값을 받아주는 클래스
+		
 		// System: 현재 사용중인 운영체제의 정보를 가져오는 클래스
+		
 		// System.in: 현재 사용중인 운영체제의 입력장치, 키보드, 마우스
 		Scanner sc = new Scanner(System.in);
 		
@@ -24,16 +27,17 @@ public class _05_InfiniteWhile {
 			System.out.println("입력한 문자열: " + inputStr);
 			
 			// 입력한 문자열이 q일 때 while문을 종료시키는 if문을 작성하세요.
+			
 			// String.equalsIgnoreCase(): 대소문자 구분없이 값비교(소문자로 비교)
-			// 소문자q든 대문자Q든 -----------
+			
+			// 소문자q든 대문자Q든 ------------v
 			if(inputStr.equalsIgnoreCase("q")) {
 				System.out.println("프로그램을 종료합니다.");
 				break;
 			}
+			
 		}
-		
 		sc.close();
-		
 		
 		
 		
