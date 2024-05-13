@@ -1,6 +1,5 @@
 package _240513_homework;
 
-
 public enum Country {
 //	7. KOR, CHI, JAP, USA 네 개의 상수를 갖는 enum을 생성하고
 //	첫 번째 값은 "나라 한글명"이고 두 번째 값은 "대표음식"으로 지정한다.
@@ -15,46 +14,20 @@ public enum Country {
 	JAP("일본","초밥"),
 	USA("미국","햄버거");
 	
-	private String nationValue;
-	private String foodValue;
-	
-	
-	Country(String nationValue, String foodValue)
-	{
-		this.nationValue = nationValue;
-		this.foodValue = foodValue;
-	}
-	
-	public String getNationValue() {
-		return nationValue;
+	private String countryStr;
+
+	public String getCountryStr() {
+		return countryStr;
 	}
 
-	public void setNationValue(String nationValue) {
-		this.nationValue = nationValue;
-	}
-
-	public String getFoodValue() {
-		return foodValue;
-	}
-
-	public void setFoodValue(String foodValue) {
-		this.foodValue = foodValue;
+	public void setCountryStr(String countryStr) {
+		this.countryStr = countryStr;
 	}
 
 	public void notifyFood(String country)
 	{
-		for(Country c : Country.values())
-		{
-			if(c.getNationValue() == country)
-			{
-				System.out.println(c.getNationValue() + "의 대표음식은 " 
-			+ c.getFoodValue() + "입니다.");
-			return;
-			}
-				
-			
-		} System.out.println("해당 국가의 대표음식을 찾을 수 없습니다.");
+		
+	}
+	
 
-
-}
 }

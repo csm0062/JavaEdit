@@ -82,14 +82,11 @@ public enum MethodMonth {
 	}
 	
 	// 2. enum에 일반(인스턴스) 메소드 선언
-	public void printMonth(int month) 
-	{
+	public void printMonth(int month) {
 		MethodMonth[] methodMonthArr = MethodMonth.values();
 		
-		for(MethodMonth methodMonth : methodMonthArr) 
-		{
-			if(methodMonth.getMonthValue() == month) 
-			{
+		for(MethodMonth methodMonth : methodMonthArr) {
+			if(methodMonth.getMonthValue() == month) {
 				System.out.println("입력한 달은 " + methodMonth.getMonthValue() + "월 입니다.");
 			}
 		}
@@ -97,14 +94,10 @@ public enum MethodMonth {
 	
 	// 현재 생성된 상수 객체의 월 값에 매개변수로 받은 개월 수를 더해서
 	// month 개월 후가 몇월달인지 출력하는 메소드를 구현하세요.
-	public void printAddMonth(int month) 
-	{
-		if(this.monthValue + month <= 12) 
-		{
+	public void printAddMonth(int month) {
+		if(this.monthValue + month <= 12) {
 			System.out.println(month + "개월 뒤는 " + (this.monthValue + month) + "월입니다.");
-		} 
-		else 
-		{
+		} else {
 			System.out.println(month + "개월 뒤는 " + 
 					((this.monthValue + month) % 12) + "월입니다.");
 		}
