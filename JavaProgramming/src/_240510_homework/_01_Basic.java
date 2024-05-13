@@ -12,31 +12,31 @@ public class _01_Basic {
 //		key는 알파벳(대소문자 구분) 
 //		value는 해당 알파벳의 유니코드 값을 Integer형태로 저장하세요.
 		
-//		// 맵 생성
-//		Map<String, Integer> uniMap = new HashMap<>();
-//		
-//		// 키와 벨류저장
-//		for(char ch = 'A'; ch <= 'Z'; ch++)
-//		{
-//			//대문자
-//			// String.valueOf(ch)는 문자 ch를 문자열로 변환하는 메소드
-//			// 문자열혈태로 알파벳키 사용가능하게하는 것
-////			Integer형태로 저장해야하니까 뒤에 값에해당하는 v칸에는 int를 붙여준다.
-//			uniMap.put(String.valueOf(ch), (int)ch);
-//		}
-//		for(char ch = 'a'; ch <= 'z'; ch++)
-//		{
-//			//소문자
-//			uniMap.put(String.valueOf(ch), (int)ch);
-//		}
+		// 맵 생성
+		Map<String, Integer> uniMap = new HashMap<>();
 		
-//		//Map에 저장되어 있는 key, value의 쌍을 
+		// 키와 벨류저장
+		for(char ch = 'A'; ch <= 'Z'; ch++)
+		{
+			//대문자
+			// String.valueOf(ch)는 문자 ch를 문자열로 변환하는 메소드
+			// 문자열혈태로 알파벳키 사용가능하게하는 것
+//			Integer형태로 저장해야하니까 뒤에 값에해당하는 v칸에는 int를 붙여준다.
+			uniMap.put(String.valueOf(ch), (int)ch);
+		}
+		for(char ch = 'a'; ch <= 'z'; ch++)
+		{
+			//소문자
+			uniMap.put(String.valueOf(ch), (int)ch);
+		}
+		
+		//Map에 저장되어 있는 key, value의 쌍을 
 		//Map.Entry(Map 인터페이스 안에 선언되어 있는 내부 인터페이스) 타입으로 저장된걸 리턴
-//		//맵의 각항목의 키와 값을 포함하는 맵의 항목
-//		for(Map.Entry<String, Integer> entry : uniMap.entrySet())
-//		{
-//			System.out.println(entry.getKey() + "키에 해당하는 값은: " + entry.getValue() );
-//		}
+		//맵의 각항목의 키와 값을 포함하는 맵의 항목
+		for(Map.Entry<String, Integer> entry : uniMap.entrySet())
+		{
+			System.out.println(entry.getKey() + "키에 해당하는 값은: " + entry.getValue() );
+		}
 		
 		
 		
