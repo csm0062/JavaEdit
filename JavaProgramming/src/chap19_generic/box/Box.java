@@ -3,7 +3,7 @@ package chap19_generic.box;
 import java.util.List;
 
 // 1. 제네릭 클래스 선언
-// 클래스 이름뒤에 <타입매개변수인 T>를 붙여준다.
+// 클래스 이름 뒤에 <타입매개변수인 T>를 붙여준다.
 // 제네릭으로 선언된 클래스는 객체를 생성할 때 타입매개변수의 타입을 지정한다.
 // 사용전까지는 타입에 대해 열어두고 사용할 때 타입을 지정해서 사용할 수 있게된다.
 public class Box<T> {
@@ -51,19 +51,18 @@ public class Box<T> {
 	public void add() {
 		// 타입매개변수로 생성된 변수는 어떤 타입의 클래스가 들어올지 몰라서
 		// Object에 존재하는 메소드 외의 메소드는 사용불가능하다.
-		if(t1.getClass().getSimpleName().equals("Integer"))
+		if(t1.getClass().getSimpleName().equals("Integer")) 
 		{
 			System.out.println((Integer)t1 + (Integer)t2);
-		}
-		else if(t1.getClass().getSimpleName().equals("String"))
+		} 
+		else if(t1.getClass().getSimpleName().equals("String")) 
 		{
 			System.out.println((String)t1 + t2);
-		}
-		else
+		} 
+		else 
 		{
 			System.out.println("Integer나 String 타입이 아닙니다.");
 		}
-				
 	}
 	
 	
