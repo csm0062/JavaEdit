@@ -46,7 +46,7 @@ public class GenericCla<T> {
 	public static <T> String add(T t1, T t2)
 	{
 		
-		return String.valueOf(t1) + String.valueOf(false);
+		return String.valueOf(t1) + String.valueOf(t2);
 	}
 
 }
