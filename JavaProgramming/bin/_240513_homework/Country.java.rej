@@ -1,0 +1,9 @@
+diff a/JavaProgramming/src/_240513_homework/Country.java b/JavaProgramming/src/_240513_homework/Country.java	(rejected hunks)
+@@ -26,7 +26,6 @@
+ 
+ 	public void notifyFood(String country)
+ 	{
+-			if(c.getNationValue() == country)
+ 		
+ 	}
+ 	

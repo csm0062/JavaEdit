@@ -1,0 +1,9 @@
+diff a/JavaProgramming/src/chap20_enum/enums/MethodMonth.java b/JavaProgramming/src/chap20_enum/enums/MethodMonth.java	(rejected hunks)
+@@ -94,7 +94,6 @@
+ 	
+ 	// 현재 생성된 상수 객체의 월 값에 매개변수로 받은 개월 수를 더해서
+ 	// month 개월 후가 몇월달인지 출력하는 메소드를 구현하세요.
+-	public void printAddMonth(int month) 
+ 	public void printAddMonth(int month) {
+ 		if(this.monthValue + month <= 12) {
+ 			System.out.println(month + "개월 뒤는 " + (this.monthValue + month) + "월입니다.");
