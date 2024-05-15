@@ -13,7 +13,7 @@ public class PrintNumWithSync {
 	public synchronized void printNum1(int num) {
 		this.setNum(num);
 		
-		for(int i = 1; i <= this.num; i++) {
+		for(int i = num; i <= 50 ; i++) {
 			System.out.println(i);
 			
 			try {
@@ -29,7 +29,7 @@ public class PrintNumWithSync {
 		synchronized(this) {
 			this.setNum(num);
 		}
-		for(int i = 1; i <= this.num * 2; i++) {
+		for(int i = num; i <= 100 * 2; i++) {
 			System.out.println(i);
 		}
 	}
