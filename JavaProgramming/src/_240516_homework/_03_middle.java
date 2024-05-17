@@ -11,9 +11,19 @@ public class _03_middle {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-//		int[] numArr ->매개변수로
+
+		
+		int[] numArr = { 1, 2, 3, 4, 5 };
 		
 		
+		MaxMinMid getMax = IntArrUtils::getMax;
+		System.out.println(getMax.maxOrMinOrMid(numArr));
+
+		MaxMinMid getMin = IntArrUtils::getMin;
+		System.out.println(getMin.maxOrMinOrMid(numArr));
+
+		MaxMinMid getMid = IntArrUtils::getMid;
+		System.out.println(getMid.maxOrMinOrMid(numArr));
 		
 		
 		

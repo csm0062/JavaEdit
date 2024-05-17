@@ -1,6 +1,6 @@
 package _240516_homework;
 
-import java.security.PublicKey;
+import java.util.Arrays;
 
 public class IntArrUtils {
 
@@ -10,19 +10,22 @@ public class IntArrUtils {
 //	maxOrMinOrMid라는 메소드를 갖는 함수형 인터페이스 MaxMinMid를 만들고 
 //	람다식으로 IntArrUtils의 메소드를 참조하여 구현하세요.
 	
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 	
-		public static int getMax() {
-			
+		public static int getMax(int[] numArr) {
+			Arrays.sort(numArr);
+			return numArr[numArr.length-1];
 		}
-		
-		public static int getMin() {
-			
+
+		public static int getMin(int[] numArr) {
+			Arrays.sort(numArr);
+			return numArr[0];
 		}
-		
-		public static int getMid() {
-			publ
+
+		public static int getMid(int[] numArr) {
+			Arrays.sort(numArr);
+			if(numArr.length%2==0) return numArr[numArr.length/2];
+			else return numArr[numArr.length/2];
 		}
 		
 		
@@ -32,4 +35,4 @@ public class IntArrUtils {
 	}
 	
 
-}
+
