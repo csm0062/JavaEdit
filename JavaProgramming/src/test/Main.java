@@ -19,8 +19,10 @@ public class Main {
 		if(fst == snd && snd == trd) {
 			prize = 10000 + (fst * 1000);
 		}else if(fst == snd || snd == trd || fst == trd) {
-			int num = fst == snd ? 
-			prize = 1000 + 
+			int num = fst == snd ?  : ? :
+			prize = 1000 + (num * 100);
+		}else{
+			prize = Math.max(fis, Math.max(snd,trd));
 		}
 		
 
