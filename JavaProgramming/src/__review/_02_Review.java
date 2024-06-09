@@ -1,10 +1,6 @@
 package __review;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
-
-import javax.annotation.processing.SupportedSourceVersion;
 
 public class _02_Review {
 
@@ -87,56 +83,136 @@ public class _02_Review {
 		
 //		-------------------------------------------------------------------------------------------------------------------------------------
 //		5. 사용자가 입력한 10개의 정수를 배열에 저장하고 최소값과 최대값을 찾아서 출력하세요.
-		int[] arr = new int[10];
-				
-		for(int i = 0; i < 10; i++) {
-			int num = sc.nextInt();
-			arr[i] = num;
-		}
-		
-		int max = arr[0];
-		int min = arr[0];
-		
-		if(int n = )
-		
-		
-		
+//		int[] arr = new int[10];
+//				
+//		for(int i = 0; i < 10; i++) {
+//			System.out.println("정수 10개를 입력하세요.");
+//			int num = sc.nextInt();
+//			arr[i] = num;
+//		}
+//		int max = arr[0];
+//		int min = arr[0];
+//		
+//		for(int i = 1; i < arr.length; i++ ) {
+//			if(arr[0] < arr[i]) {
+//				max = arr[i];
+//			}
+//		}
+//		for(int i = 1; i < arr.length; i++ ) {
+//			if(arr[0] > arr[i]) {
+//				min = arr[i];
+//			}
+//		}
+//		
+//		System.out.println("최댓값: " + max);
+//		System.out.println("최소값: " + min);
 		
 //		-------------------------------------------------------------------------------------------------------------------------------------
 //		6. 사용자가 입력한 5개의 문자열을 배열에 저장하고 길이가 가장 긴 문자열과 길이가 가장 작은 문자열을 출력하세요.
+		
+//		String[] stringArr = new String[5];
+//		System.out.println("문자열 1개를 입력하세요.");
+//		
+//		for(int i = 0; i < stringArr.length; i++) {
+//			System.out.println((i + 1) + " 번째 입력할 문자열");
+//			String str = sc.nextLine();
+//			stringArr[i] = str;
+//		}
+//		
+//		String minStr = stringArr[0];
+//		String maxStr = stringArr[0];
+//			
+//		
+//		for(int i = 0; i < stringArr.length; i++) {
+//			if(stringArr[0].length() > stringArr[i].length()) {
+//				minStr = stringArr[i];
+//			}
+//			
+//			if(stringArr[0].length() < stringArr[i].length()) {
+//				maxStr = stringArr[i];
+//			}
+//		}
+//		
+//		System.out.println("최댓값: " + maxStr);
+//		System.out.println("최소값: " + minStr);
 		
 		
 //		-------------------------------------------------------------------------------------------------------------------------------------
 //		7. 두 개의 정수형 배열을 만들고 1 ~ 100까지의 랜덤한 값으로
 //		첫 번째 배열은 4개 두 번째 배열은 3개를 저장하고
 //		두 배열을 합친 새로운 배열을 생성하세요.
-		
+//		int[] arr1 = new int[4];
+//		int[] arr2 = new int[3];
+//		int[] arr3 = new int[7];
+//		
+//		Random rad = new Random(100);
+//		
+//		for(int i = 0; i < arr1.length; i++) {
+//			arr1[i] = rad.nextInt(100);
+//		}
+//		
+//		for(int i = 0; i < arr2.length; i++) {
+//			arr2[i] = rad.nextInt(100);
+//		}
+//		
+//		System.arraycopy(arr1, 0, arr3, 0, arr1.length);
+//		System.arraycopy(arr2, 0, arr3, arr1.length, arr2.length);
+//		
+//		System.out.print("arr3번 배열 객체는: ");
+//		for(int result : arr3) {
+//			System.out.print(result + " ");
+//		}
 		
 //		-------------------------------------------------------------------------------------------------------------------------------------
 //		8. 사용자가 문자열을 입력하는데 문자열 사이사이에 -을 넣어 구분자로 만들어준다.
 //		기준으로 잘라진 문자열 배열을 생성하고 잘라진 문자열 중에 가장 길이가 긴 문자열의 인덱스와 그 문자열을 출력하세요.
-		
-		
-		
-		
+//		System.out.println("문자열을 입력하세요(띄어쓰기 대신 \"-\" 를 넣어주세요)");
+//		String str = sc.nextLine();
+//		
+//		String[] strArr = str.split("-"); // - 로 단어들을 끊어서 가지고온다.
+//		
+//		List<String> arrList = new ArrayList();
+//		for(String i : strArr) { // strArr에있는 것들을 순차적으로 arrList에 삽입해주는것
+//			 arrList.add(i);
+//		}
+//		
+//		int maxLengthString = 0; // 가장 긴 문자열
+//		int maxIndex = 0; // 가장 긴 문자열의 인덱스 번호
+//		
+//		for(int i = 0; i < arrList.size(); i++)  // arrList 요소들의 개수 반환
+//		if(arrList.get(i).length() > maxLengthString){ // maxLengthString(가장 긴 문자열 길이) 보다 arrList의 i번째 인덱스에있는 객체의 길이가 더 클때
+//			maxLengthString = arrList.get(i).length(); // arrList의 i번째 인덱스에있는 객체의 길이를 maxLengthString에 업데이트
+//			maxIndex = i; //  arrList의 가장 긴 String의 인덱스 i에 maxIndex에 업데이트
+//		}
+//		
+//		System.out.println("가장 긴 문자열의 인덱스는 " + maxIndex);
+//		System.out.println("가장 긴 문자열은 " + maxLengthString);
 		
 		
 //=============================================	////////////////////|클 래 스|////////////////////=============================================
 //		1. 학생의 이름, 학번, 학과를 속성으로 가지고 학생의 정보를 저장하는 메소드와 학생의 정보를 출력하는 메소드를 갖는 학생 클래스를 생성하세요.
+		//Student 클래스 생성
 		
 //		-------------------------------------------------------------------------------------------------------------------------------------
 //		2. 도서의 제목, 저자, 출판사, 가격을 속성으로 가지고 정보를 저장하는 메소드와 정보를 출력하는 메소드를 갖는 도서 클래스를 생성하세요.
-		
+		//Book 클래스 생성
 //		-------------------------------------------------------------------------------------------------------------------------------------
 //		3. 두 문자열을 전달받아 합쳐진 새로운 문자열을 리턴하는 메소드를 구현하세요.
-		
+//		System.out.println(concatStr("soo","min"));
 //		-------------------------------------------------------------------------------------------------------------------------------------
 //		4. 정수 한 개와 실수 한 개를 전달받아 소수점 두자리까지만 가지는 곱의 결과를 리턴하는 메소드를 구현하세요.
-		
+//		System.out.println(mul(22, 5.3894f));
 //		-------------------------------------------------------------------------------------------------------------------------------------
 //		5. 반지름을 속성으로 갖는 원클래스를 만들고 
 //		사용자가 입력한 반지름이 생성자를 통해 속성에 저장되며 원의 넓이와 둘레를 구해서 리턴하는 메소드를 각각 구현하세요.
-		
+//		System.out.println("반지름을 입력하세요.");
+//		int radius = sc.nextInt();
+//		sc.nextLine();
+//		
+//		Circle circle = new Circle(radius);
+//		System.out.println("원의 넓이는 " + circle.area());
+//		System.out.println("원의 둘레는 " + circle.round());
+//		
 //		-------------------------------------------------------------------------------------------------------------------------------------
 //		6. 잔액을 속성으로 가지고 입금, 출금, 잔액 조회를 메소드로 갖는 계좌 클래스를 생성하세요.
 		
@@ -200,16 +276,16 @@ public class _02_Review {
 //	    출력하세요. (현대 차종은 아반떼, 소나타, 그랜저 기아 차종은, k5, k7, k9, 판매량은 마음대로 정하시면 됩니다.)
 		
 //		-------------------------------------------------------------------------------------------------------------------------------------
-		
-
-		
-		
-		
 	}
 //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@| 메소드 정의 영역 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	public static String concatStr(String str1, String str2) {
+		return str1 + str2;
+	}
 	
-	
-	
+	public static float mul(int num1, float num2) {
+		float floatVal = num1 * num2;
+        return (float)Math.round(floatVal * 100)/ 100;
+	}
 	
 	
 
