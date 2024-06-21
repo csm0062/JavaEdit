@@ -14,9 +14,9 @@ public class _31403 {
 		int C = sc.nextInt();
 		
 		int sum = A + B - C;
-		String str = String.valueOf(A) + String.valueOf(B);
-		int sumStr = Integer.parseInt(str) - C;
-//		int sumStr = Integer.parseInt("" + A + B) - C;
+//		String str = String.valueOf(A) + String.valueOf(B);
+//		int sumStr = Integer.parseInt(str) - C;
+		int sumStr = Integer.parseInt("" + A + B) - C;
 		
 		System.out.println(sum);
 		System.out.println(sumStr);
