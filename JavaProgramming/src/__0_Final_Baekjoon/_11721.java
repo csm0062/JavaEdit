@@ -1,4 +1,4 @@
-package _00_Final_Baekjoon;
+package __0_Final_Baekjoon;
 
 import java.util.ArrayList;
 import java.util.List;
