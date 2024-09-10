@@ -7,6 +7,7 @@ public class ConcatString {
 		return(str1 + str2);
 	}
 
+	
 	public String add(String str1, String str2, int num) 
 	{
 		return(str1 + str2 + num);
